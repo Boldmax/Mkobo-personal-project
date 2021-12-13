@@ -1,0 +1,34 @@
+.displayControl {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+}
+
+.cardHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 38rem;
+}
+
+.cardHolder h2 {
+  color: #385692;
+  width: max-content;
+  margin-top: 3rem;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cardHolder {
+    width: 70vw;
+  }
+}

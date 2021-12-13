@@ -1,0 +1,45 @@
+#main {
+  display: block;
+  position: relative;
+  height: max-content;
+  width: 100vw;
+  z-index: 2;
+  background-color: #0248cd;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+
+#main h1 {
+  position: relative;
+  display: block;
+  width: 340px;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  font-size: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.sub-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .sub-main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #main h1 {
+    width: 260px;
+    font-size: 34px;
+  }
+}
+/* .reason-card p:hover {
+  color: #ffffff;
+} */

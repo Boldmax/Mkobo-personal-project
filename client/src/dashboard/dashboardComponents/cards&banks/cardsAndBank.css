@@ -1,0 +1,105 @@
+.containerCB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+
+.CardsAnsBanksContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+.Cardandbanks {
+  display: block;
+  width: 100%;
+}
+
+.CardandbanksNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#breaker {
+  width: 77%;
+  margin-top: 0rem;
+  color: #aac6ce;
+  margin-left: 2rem;
+  border-top: 3px solid #aac6ce;
+}
+
+.cardContainer {
+  display: block;
+  width: 100%;
+  padding-bottom: 15rem;
+}
+
+#CardImg2 {
+  display: block;
+  margin: auto;
+  width: 24rem;
+  margin-top: 2rem;
+}
+
+#CardImg {
+  display: block;
+  margin: auto;
+  width: 24rem;
+  margin-top: 1rem;
+}
+
+.accountCardDisplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#cardLine {
+  width: 25.5rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  border-top: 2px solid #aac6ce;
+}
+
+@media screen and (max-width: 1280px) {
+  #cardLine {
+    width: 22rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    border-top: 2px solid #aac6ce;
+  }
+
+  #breaker {
+    width: 75%;
+    margin-top: 0rem;
+    color: #aac6ce;
+    margin-left: 2rem;
+    border-top: 2px solid #aac6ce;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .accountCardDisplay {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #cardLine {
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    border-top: 2px solid #aac6ce;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #cardLine {
+    width: 17rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    border-top: 2px solid #aac6ce;
+  }
+}

@@ -1,0 +1,138 @@
+/* .donation {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background: var(--primary-ligtGrey);
+  border-radius: 20px 20px 20px 1px;
+  left: 30%;
+  top: 15%;
+  width: 28%;
+  z-index: 100;
+}
+
+.donation.active {
+  top: -100%;
+} */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar img {
+  padding: 15px 0;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+section .topbar,
+section .botomBar {
+  height: 3.5rem;
+  background-image: var(--color-general);
+  width: 100%;
+  border-radius: 20px 1px 20px 1px;
+}
+
+section .donation-box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section .donation-box input,
+section .donation-box select {
+  width: 70%;
+  margin: 15px;
+  height: 2.5rem;
+  border: none;
+  font-size: 1rem;
+  padding: 13px;
+  padding-left: 1rem;
+  border-radius: 10px 10px 10px 0px;
+  outline: none;
+}
+
+section .donation-box select option {
+  width: 20rem;
+  background-color: var(--themeRed);
+}
+
+section .donation-box form button {
+  margin: 2rem auto;
+  border-radius: 10px 10px 10px 0px;
+  outline: none;
+  padding: 10px;
+  width: 70%;
+  font-weight: 600;
+  border: none;
+  color: #0248CD;
+}
+
+section .donation-box form button:hover {
+  background: #0248CD;
+  color: #fff;
+}
+
+.botomBar {
+  display: flex;
+  font-size: 1rem;
+  color: #fff;;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 1px 20px 1px;
+}
+
+.botomBar span {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.donation-box h2 {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.topbar .times {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.topbar .times:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+/*   section {
+    width: 50%;
+    left: 25%;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+/*   section {
+    left: 10%;
+    top: 15%;
+    width: 80%;
+    transition: 0.5s;
+  } */
+
+  section .donation-box h3 {
+    font-size: 0.8rem;
+  }
+
+  .topbar .times {
+    display: flex;
+    margin: 20px;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+  }
+
+ /*  section.active {
+    top: -145%;
+  } */
+}

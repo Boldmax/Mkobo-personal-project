@@ -1,0 +1,113 @@
+:root {
+  --primary-white: #ffffff;
+  --primary-blue: #0248cd;
+  --primary-ligtGrey: #a9b1c0;
+  --primary-darkGrey: #676e7d;
+  --primary-darkBlue: #233862;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containe {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background: #ffffff;
+  padding: 2rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/***********   EmailConfirm  ****************/
+
+/* .EmailConfirm {
+  display: block;
+  margin: auto;
+  width: 40vw;
+  height: 90vh;
+}
+
+.EmailConfirm p {
+  display: block;
+  width: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  font-size: 1rem;
+}
+
+.EmailConfirm h5 {
+  display: block;
+  width: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+  color: #0248cd;
+  font-weight: bold;
+}
+
+.WrongPassword {
+  display: block;
+  margin: auto;
+  width: 40vw;
+  height: 90vh;
+}
+
+.WrongPassword h5 {
+  display: block;
+  width: 15vw;
+  margin-left: 3rem;
+  padding-top: 5rem;
+  color: #0248cd;
+  font-weight: bold;
+}
+
+.WrongPassword p {
+  display: block;
+  width: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+  font-size: 1rem;
+}
+
+h6 {
+  display: block;
+  width: 38vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--primary-ligtGrey);
+}
+
+.PasswordReset {
+  display: block;
+  margin: auto;
+  width: 80vw;
+  height: 90vh;
+}
+
+.PasswordReset h3 {
+  display: block;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+
+.PasswordReset h5 {
+  display: block;
+  width: 31vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+ */

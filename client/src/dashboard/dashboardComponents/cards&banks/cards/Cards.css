@@ -1,0 +1,21 @@
+.cardContainer {
+  display: block;
+  width: 100%;
+  padding-bottom: 15rem;
+}
+
+#CardImg {
+  display: block;
+  margin: auto;
+  width: 24rem;
+  margin-top: 1rem;
+}
+
+.cardHoder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75vw;
+  background-color: aqua;
+  height: 80vw;
+}

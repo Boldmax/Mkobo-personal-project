@@ -1,0 +1,44 @@
+.nextOfKin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  padding-bottom: 2rem;
+}
+
+.topbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25vw;
+}
+
+.nextOfKin > div h2 {
+  color: #385692;
+  width: max-content;
+  margin-top: 3rem;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nextOfKin > div span {
+  width: 30rem;
+  font-size: 12px;
+  margin: 1.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  label {
+    margin-left: 0rem;
+    /* width: 55vw; */
+  }
+
+  .topbox {
+    margin-top: 3rem;
+    width: 80vw;
+  }
+
+  .nextOfKin > div span {
+    width: 80vw;
+  }
+}

@@ -1,0 +1,67 @@
+POST http://localhost:4000/app/users/create
+Content-Type: application/json
+
+{
+    "BVN": "09876543212",
+    "fisrt_name": "IBUNKUN",
+    "last_name": "OLUWA",
+    "email": "allegry@gmail.com",
+    "gender": "Female",
+    "date_of_birth": "10/10/10",
+    "address": "20 avenue, futa, Akure."
+}
+
+
+###
+
+post http://localhost:4000/kin/users/60972db20861c100b0502b2c/create
+Content-Type: application/json
+
+
+{
+    "fisrt_name": "ADEMOYE",
+    "last_name": "ESTHER",
+    "email": "kingga@gmail.com",
+    "relationship": "Married",
+    "phone_number": "07068191088",
+    "address": "20 avenue, gowon, Lagos."
+}
+
+###
+
+GET http://localhost:4000/app/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWxsZWdyeUBnbWFpbC5jb20iLCJpYXQiOjE2MjQ3MjkxMjl9.y5mIDVgPADxY2CGsOuV678_Qi-2MzQ0myS6yYVtU52g
+
+
+
+###
+
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWxsZWdyeUBnbWFpbC5jb20iLCJpYXQiOjE2MjQ3MjkxMjl9.y5mIDVgPADxY2CGsOuV678_Qi-2MzQ0myS6yYVtU52g"
+}
+
+###
+
+
+POST http://localhost:4000/form/register
+Content-Type: application/json
+
+{
+    "BVN": "09876543212",
+    "EmailAddress":"allegry@gmail.com",
+    "Password":"memoryverse",
+    "Password2":"memoryverse"
+}
+
+###
+
+POST http://localhost:4000/form/login
+Content-Type: application/json
+
+{
+    "EmailAddress":"allegry@gmail.com",
+    "Password":"memoryverse"
+}
